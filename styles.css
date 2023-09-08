@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos a columna */
+    justify-content: center;
+    justify-content: center;
+    align-items: center; 
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(background.jpg);
+    min-height: 100vh; /* Esto asegura que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+}
+
+.container {
+    text-align: center;
+    background-color: transparent; /* Puedes cambiar esto si deseas un fondo detrás del título y el formulario */
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacio entre el título y el formulario */
+}
+
+#registro {
+    padding: 20px;
+    border-radius: 5%;
+    background-color: #debfdb;
+}
